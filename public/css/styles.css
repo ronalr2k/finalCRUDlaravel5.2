@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+/*style for header*/
+.your{
+    color: #000;
+    font-weight: 800;
+    font-size: 180%;
+}
+.logo{
+    color: #DBB11F;
+    font-size: 170%;
+}
+.colornav{
+    background-color:transparent;
+    border: none;
+}
+.colorrow{
+    background-color:#F1F3EE;
+}
+
+/* end style header*/
+
+.main-logo {
+    height: 343px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.filaTres {
+    background-color: #E6B707;
+}
+.meter{
+    background-color: #DBB11F;
+    height: 200px;
+    width: 100%;
+}
+
+.pie{
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 200px;
+}
+
+
+.foot{
+    background-color: #010101;
+    color: white;
+}
+.menu{
+}
+.slogan h4{
+    text-transform: uppercase;
+        color: white;
+    font-weight: 800;
+    line-height: 1em;
+    font-family: Lato;
+}
+.slogan h4:first-child{
+    font-weight: normal;
+    color: #F1F3EE;
+
+}
+.slogan{
+    background-color: rgba(15, 15, 15, 0.57);
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+#eldos li{
+    list-style: none;
+    border-bottom: 1px solid #F1F3EE;
+}
+.foot h3{
+    font-weight:900;
+}
+.meter{
+    background-color: #E6B707;
+    width: 100%;
+}
+/*inicio trial*/
+.wrapper {
+    background: #E6B707;
+    margin: 10px;
+}
+
+.content {
+    font-family: Lato;
+    background: #E6B707;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    height: 100px;
+}
+.fondcont{
+    background:#F1F3EE;
+}
+
+.triangle-down{
+    box-sizing: content-box;
+    width: 50%;
+    height: 0;
+    padding-left:50%;
+    padding-top: 5%;
+    overflow: hidden;
+}
+.triangle-down div {
+    width: 0;
+    height: 0;
+    margin-left:-1000px;
+    margin-top:-100px;
+    border-left: 1000px solid transparent;
+    border-right: 1000px solid transparent;
+    border-top: 100px solid #E6B707;
+}
+/*-- fin triangulo*/
+
+
+
+/*-- triangulo blanco*/
+.fondYellowb {
+    background: white;
+}
+
+
+.fondYellowb.wrapper {
+    background: white;
+    margin: 10px;
+}
+
+.fondYellowb.content {
+    font-family: Arial;
+    background: white;
+    color: #010101;
+    padding-top: 10px;
+    text-align: center;
+    height: 100px;
+}
+
+.fondYellowb.triangle-down{
+    box-sizing: content-box;
+    width: 50%;
+    height: 0;
+    padding-left:50%;
+    padding-top: 5%;
+    overflow: hidden;
+}
+.fondYellowb.triangle-down div {
+    width: 0;
+    height: 0;
+    margin-left:-1000px;
+    margin-top:-100px;
+    border-left: 1000px solid transparent;
+    border-right: 1000px solid transparent;
+    border-top: 100px solid #F1F3EE;
+}
+/*--fin triangulo blanco*/
+
+
+
+
+
+/*-- triangulo blanco*/
+.fondYellow {
+    background:#E6B707;
+}
+
+
+.fondYellow.wrapper {
+    background: #E6B707;
+    margin: 10px;
+}
+
+.fondYellow.content {
+    font-family:Lato;
+    background: #E6B707;
+    color: #010101;
+    padding-top: 10px;
+    text-align: center;
+    height: 100px;
+}
+
+.fondYellow.triangle-down{
+    box-sizing: content-box;
+    width: 50%;
+    height: 0;
+    padding-left:50%;
+    padding-top: 5%;
+    overflow: hidden;
+}
+.fondYellow.triangle-down div {
+    width: 0;
+    height: 0;
+    margin-left:-1000px;
+    margin-top:-100px;
+    border-left: 1000px solid transparent;
+    border-right: 1000px solid transparent;
+    border-top: 100px solid white;
+}
+/*--fin triangulo blanco*/
+
+
+
+
+
+/*-- triangulo blanco*/
+.fondYellowa {
+    background: #F1F3EE;
+}
+
+
+.fondYellowa.wrapper {
+    background:#F1F3EE;
+    margin: 0;
+}
+
+.fondYellowa.content {
+    font-family: Arial;
+    background: #F1F3EE;
+    color: #F1F3EE;
+    padding-top: 10px;
+    text-align: center;
+    height: 100px;
+}
+
+.fondYellowa.triangle-down{
+    box-sizing: content-box;
+    width: 50%;
+    height: 0;
+    padding-left:50%;
+    padding-top: 5%;
+    overflow: hidden;
+}
+.fondYellowa.triangle-down div {
+    width: 0;
+    height: 0;
+    margin-left:-1000px;
+    margin-top:-100px;
+    border-left: 1000px solid transparent;
+    border-right: 1000px solid transparent;
+    border-top: 100px solid white;
+}
+/*--fin triangulo blanco*/
+
+
+
+
+
+
+
+
+
+
+
+
+
