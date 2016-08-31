@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use App\Item;
 
 class MyController extends Controller
 {
@@ -15,11 +16,13 @@ class MyController extends Controller
      */
     public function index()
     {
-        return view('bodyFrond');
+        $items = Item::orderBy('id','DESC')->paginate(5);
+        return view('bodyFrond', compact('items'));
+        //return view('bodyFrond'); //->with("items", $items);
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating a new resource.`
      *
      * @return \Illuminate\Http\Response
      */

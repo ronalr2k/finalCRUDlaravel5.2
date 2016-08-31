@@ -18,7 +18,7 @@ Route::auth();
 
 Route::get('/home', 'MyController@index');
 Route::group(['middleware' => 'auth'], function () {
-           // Uses Auth Middleware
+
         Route::resource('itemCRUD','ItemCRUDController');
         //Route::resource('/admin','itemCRUD');
 

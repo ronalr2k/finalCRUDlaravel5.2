@@ -32,6 +32,10 @@
 .filaTres {
     background-color: #E6B707;
 }
+.filaCuatro{
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
 .meter{
     background-color: #DBB11F;
     height: 200px;
@@ -79,6 +83,7 @@
 .meter{
     background-color: #E6B707;
     width: 100%;
+    height: auto;
 }
 /*inicio trial*/
 .wrapper {
@@ -96,6 +101,7 @@
 }
 .fondcont{
     background:#F1F3EE;
+
 }
 
 .triangle-down{

@@ -89,9 +89,9 @@
         </div>
     </div>
     <!--news-->
-    <div class="container-fluid">
-        <div class="row text-center">
-            <div class="col-md-4">
+    <div class="container" style="margin:0 auto;">
+        <div class="row">
+            <!-- <div class="col-md-4">
                 <img src="img/news.png">
             </div>
             <div class="col-md-4">
@@ -100,6 +100,16 @@
             <div class="col-md-4">
                 <img src="img/news.png">
             </div>
+             -->
+            <div class="container">
+             @for($i=0; $i < 3; $i++)
+                <div class="col-md-4  well well-sm" style="width:25%;">
+                    <h2>{{ $items[$i]->title }}</h2>
+                        <p>{{ $items[$i]->description }}</p>
+                    </div>
+            @endfor
+            </div>
+             
         </div>
     <!-- end news -->
 
@@ -156,5 +166,5 @@
         </div>
 
     </div>
-
+<?php /*foreach($items as $i)echo($i->title)*/?>
 @endsection

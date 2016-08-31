@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
+use App\Item;
 
 class HomeController extends Controller
 {
@@ -24,6 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+         $items = Item::orderBy('id','DESC')->paginate(5);
+         dd($items);
         return view('home');
     }
 }
